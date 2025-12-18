@@ -1,0 +1,51 @@
+########################################
+# Python / FastAPI / uv project ignores
+########################################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS / Windows cruft
+.DS_Store
+Thumbs.db
+
+# uv / lockfiles (keep uv.lock, ignore backups)
+uv.lock.bak
+
+# Local overrides
+*.local.*
+
